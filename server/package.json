@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./server.js",
+    "start": "node ./server.js",
+    "client": "cd.. && cd client && npm start",
+    "dev": "concurrently \"node index.js\" \"npm run client\"",
+    "clienti": "cd.. && cd client && npm install",
+    "download": "concurrently \"npm install\" \"npm run clienti\""
+  },
+  "author": "",
+  "license": "ISC"
+}
