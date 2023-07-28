@@ -17,7 +17,7 @@ The local server of the frontend is running on the port 3000 and backend server 
 
 To run this project in your local machine
 
-1.clone repo- git clone https://github.com/SNEHANSHU-CODE/BookMyShow.git
+1.clone repo- git clone https://github.com/umeshkumar22/Book-My-Show-AlmaBetter-.git
 
 2.To run this app locally you have to change axios urls on client->src->components->UI.js
   "https://ticket-server-x8vq.onrender.com/api/booking" to
